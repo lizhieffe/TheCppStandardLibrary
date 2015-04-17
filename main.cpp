@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-    cout << "\nHello, World!\n\n" << endl;
+    cout << "\nHello, World!\n" << endl;
 
     ContainerTest dt;
     dt.testVector();
@@ -14,6 +14,8 @@ int main() {
     dt.testList();
     dt.testSet();
     dt.testMap();
+    dt.testUnorderedMap();
+    dt.testIterator();
 
     return 0;
 }

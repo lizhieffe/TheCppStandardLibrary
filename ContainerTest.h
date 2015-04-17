@@ -14,6 +14,9 @@ public:
 
     void testSet();
     void testMap();
+    void testUnorderedMap();
+
+    void testIterator();
 };
 
 
